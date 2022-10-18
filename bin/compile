@@ -1,3 +1,3 @@
 #!/bin/sh
-# Usage: bin/compile <build-dir> <cache-dir> <env-dir>
-exec "$1"/bin/compile "$@"
+# Usage: bp/compile <build-dir> <cache-dir> <env-dir>
+exec "$1"/bp/compile "$@"

@@ -1,7 +1,7 @@
 #!/bin/sh
 # Usage: bin/release <build-dir>
 
-RELEASE_SCRIPT="${1}/bin/release"
+RELEASE_SCRIPT="${1}/bp/release"
 
 # The Buildpack API states that the `bin/release` script is optional.
 if [ -f "${RELEASE_SCRIPT}" ]; then
